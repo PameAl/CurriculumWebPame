@@ -9,7 +9,7 @@ Soy un frontend amante del diseño y la codificación, convirtiendo ideas en exp
 * [Portafolio](https://pameal.com)
 
 ## Ver ejemplo en vivo
-" [https://pameal.github.io/CurriculemWeb/](https://pameal.github.io/CurriculemWeb/)
+" [https://pameal.github.io/CurriculumWebPame/](https://pameal.github.io/CurriculumWebPame/)
 
 ## Instalación
 Este proyecto no necesita de instalacion. Simplemente abre la carpeta o haz doble click en el .html
