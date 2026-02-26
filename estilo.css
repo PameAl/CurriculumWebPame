@@ -620,9 +620,13 @@ font-size: 17px;
 .portafolio .galeria .proyecto {
     position: relative;
     max-width: 400px;
-    height: fit-content;
     margin: 10px;
     cursor: pointer;
+}
+
+.portafolio .galeria .proyecto a {
+    display: block;
+    position: relative;
 }
 
 .portafolio .galeria .proyecto img {
@@ -635,17 +639,28 @@ font-size: 17px;
 .portafolio .galeria .proyecto .overlay {
     position: absolute;
     top: 0;
-    width: 400px;
-    height: 250px;
-    text-align: center;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
     background: linear-gradient(rgba(241, 171, 97, 0.8), rgba(241, 171, 97, 0.8));
+
     display: flex;
     flex-direction: column;
     justify-content: center;
-    transition: 1s;
+    align-items: center;
+
+    text-align: center;
     font-size: 18px;
     letter-spacing: 3px;
+
     opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.portafolio .galeria .proyecto:hover .overlay {
+    opacity: 1;
+    color: white;
 }
 
 .portafolio .galeria .proyecto .overlay h3 {
